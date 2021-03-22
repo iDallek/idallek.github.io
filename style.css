@@ -133,8 +133,53 @@
     }
 
     .wave2 img{
-      margin-top: 50px;
+      margin-top: 90px;
       width: 100%;
       filter: saturate(2.5);
       transform: rotate(180deg);
+    }
+
+    .section-3 {
+      background-color: #3a86ff;
+      margin-top:-10px;
+      padding: 10px;
+    }
+
+    .recommendation-link {
+      float: right;
+      margin-top: 100px
+    }
+
+    .section-3 .buttun {
+      padding: 65px 85px;
+      background-color: #fff;
+      border-radius: 30px;
+      margin-top: 0;
+    }
+
+    .section-3 .buttun:hover {
+      background-color: rgb(233, 233, 233)
+    }
+
+    .section-3 a {
+      font-family: Arial, Helvetica, sans-serif;
+      text-decoration: none;
+      font-size: 3em;
+      font-weight: 900;
+      color: #3a86ff;
+    }
+
+    .recommendation-website {
+      height: 300px
+    }
+
+    .recommendation-text{
+      float: left;
+      margin: 70px 0 0 50px;
+      max-width: 800px;
+    }
+
+    .recommendation-text p {
+      font-size: 2em;
+      color: #fff;
     }
