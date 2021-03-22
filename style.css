@@ -36,7 +36,6 @@
     }
 
     .profile-picture {
-      /*border: 1px solid red;*/
       float: left;
     }
 
@@ -49,7 +48,6 @@
     }
 
     .profile-text {
-      /*border: 1px solid blue;*/
       margin-top: 15%;
       margin: 11% 10px 11% 30%;
     }
@@ -70,9 +68,75 @@
       display: table;
     }
 
-    .wave img{
+    section{
+      position: relative;
       width: 100%;
-      filter: saturate(2.5);
+      height: 150px;
+      background: #3a86ff;
+      overflow: hidden;
+    }
+
+    section .wave{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      background: url(Imagens/wave2.png);
+      background-size: 1000px 100px;
+    }
+
+    .waves-section2 .wave{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100px;
+      transform: rotate(180deg);
+      background: url(Imagens/wave2.png);
+      background-size: 1000px 100px;
+    }
+
+    section .wave.wave1{
+      animation: animate1 30s linear infinite;
+      z-index: 1000;
+      opacity: 1;
+      animation-delay: 0s;
+      bottom: 0;
+    }
+
+    section .wave.wave2{
+      animation: animate2 15s linear infinite;
+      z-index: 999;
+      opacity: 0.5;
+      animation-delay: -5s;
+      bottom: 10px;
+    }
+
+    section .wave.wave3{
+      animation: animate1 30s linear infinite;
+      z-index: 998;
+      opacity: 0.2;
+      animation-delay: -2s;
+      bottom: 15;
+    }
+
+    section .wave.wave4{
+      animation: animate2 12s linear infinite;
+      z-index: 997;
+      opacity: 0.7;
+      animation-delay: 0s;
+      bottom: 20px;
+    }
+
+    @keyframes animate1 {
+      0%{background-position-x: 0;}
+      100%{background-position-x: 1000px;}
+    }
+
+    @keyframes animate2 {
+      0%{background-position-x: 0;}
+      100%{background-position-x: -1000px;}
     }
 
     .section-2 {
@@ -94,7 +158,6 @@
 
     .list-skills-box{
       display: inline-block;
-      /*border: 1px solid green;*/
       align-items: center;
       margin: 380px 0% 0 25%;
     }
@@ -132,11 +195,13 @@
       offset: 997;
     }
 
-    .wave2 img{
-      margin-top: 90px;
-      width: 100%;
-      filter: saturate(2.5);
-      transform: rotate(180deg);
+    @keyframes animate {
+      0%{
+        position: 0;
+      }
+      100%{
+        position: 100%;
+      }
     }
 
     .section-3 {
