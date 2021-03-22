@@ -1,81 +1,222 @@
-*{
-  padding: 0;
-  margin: 0;
-}
+/**{
+      padding: 0;
+      margin: 0;
+    }
 
-body {
-  font-family: 'Rubik', sans-serif;
-  background-color:#636363;
-  color: #d1d1d1;
-  font-size: 1.1em;
-}
+    body {
+      font-family: 'Rubik', sans-serif;
+      background-color: white;
+      color: #4c4c4c;
+      font-size: 1.1em;
+    }
 
-h2 {
-  margin: 15px;
-}
+    h2 {
+      margin: 15px;
+    }
 
-li {
-  margin: 5px 50px; 
-}
+    li {
+      margin: 5px 50px; 
+    }
 
-ul {
-  margin-bottom: 20px;
-}
+    ul {
+      margin-bottom: 20px;
+    }
 
-.title {
-  color: white
-}
+    .title {
+      color: 
+    }
 
-.profile-box {
-  /*border: 1px solid red;*/
-  background-color: #4c4c4c;
-}
+    .profile-box {
+      border: 1px solid red;
+      background-color: #118ab2;
+    }
 
-.semi-circle {
-  border-radius: 30%;
+    .semi-circle {
+      border-radius: 30%;
+      
+    }
+
+    .profile-text {
+      font-size: 1.3em;
+      text-align: center;
+      padding: 30px 0;
+
+    }
+
+    .profile-img{
+      display: block;
+      margin: 0 auto;
+    }
+
+    .buttun{
+      text-decoration: none;
+      color: white;
+      background-color: #ba1b1d;
+      padding: 5px 15px;
+      margin: 20px;
+      border-radius: 2px;
+    }
+
+    .buttun:hover {
+      background-color: #f7f4f3;
+      color: #ba1b1d;
+    }
+
+    .opex-merchan-text {
+      margin-top: 15px;
+      padding: 15px;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+
+    .third-box {
+      background-color: ;
+      padding-bottom: 20px;
+    }
+
+    #highlighted-title {
+      text-align: center;
+      padding: 50px 0;
+      font-size: 3em;
+    }
+    */
+    * {
+      margin: 0;
+    }
+    
+    body {
+      font-family:'Livvic', sans-serif;;
+    }
+
+    .page-width {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
+    .profile-box {
+      background-color: #3a86ff;
+      margin-bottom: -300px;
+    }
+
+    #highlighted-title {
+      font-size: 6em;
+      text-align: center;
+      padding-top: 100px
+    }
+
+    h1 {
+      color: white;
+    }
+
+    .info-and-picture {
+      max-width: 1440px;
+      margin: 300px auto;
+      border: 1px solid #3a86ff;
+      position: relative;
+      height: 400px;
+      padding-bottom: 200px;
+    }
+
+    .profile-picture {
+      /*border: 1px solid red;*/
+      float: left;
+    }
+
+    .profile-picture img{
+      width: 400px
+    }
+
+    .semi-circle {
+      border-radius: 50px;
+    }
+
+    .profile-text {
+      /*border: 1px solid blue;*/
+      margin-top: 15%;
+      margin: 11% 10px 11% 30%;
+    }
+
+    .profile-text p {
+      font-size: 1.5em;
+      text-align: center;
+      color: #fff;
+    }
+
+    .clearfix {
+      overflow: auto;
+    }
+
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .wave img{
+      /*border: 1px solid red;
+      width: 1200px;
+      height: 100px;
+      display: block;
+      top: 50px;
+      */
+      width: 100%;
+      filter: saturate(2.5);
+    }
+
+    .section-2 {
+      /*border: 1px solid red;*/
+      margin-top: -100px
+    }
+
+    .title-skills-box{
+      display: block;
+      float: left;
+      margin: 200px 0 -250px 100px;
+      offset: 999;
+    }
+
+    .title-skills{
+      font-size: 10em;
+      color: #3a86ff;
+      offset: 998;
+    }
+
+    .list-skills-box{
+      display: inline-block;
+      /*border: 1px solid green;*/
+      align-items: center;
+      margin: 380px 0% 0 25%;
+    }
+
+    .list-skills {
+      font-size: 2em;
+      letter-spacing: 2px;
+    }
+
+    .skills-box {
+      margin-bottom: 150px;
+    }
   
-}
+    .line {
+      display: block;
+      width: 80%;
+      min-width: 490px;
+      height: 25px;
+      background-color: #3a86ff;
+      position: relative;
+      top: 350px;
+      left: 50px;
+      offset: 997;
+    }
 
-.profile-text {
-  font-size: 1.3em;
-  text-align: center;
-  padding: 30px 0;
-
-}
-
-.profile-img{
-  display: block;
-  margin: 0 auto;
-}
-
-.buttun{
-  text-decoration: none;
-  color: white;
-  background-color: #ba1b1d;
-  padding: 5px 15px;
-  margin: 20px;
-  border-radius: 2px;
-}
-
-.buttun:hover {
-  background-color: #f7f4f3;
-  color: #ba1b1d;
-}
-
-.opex-merchan-text {
-  margin-top: 15px;
-  padding: 15px;
-  font-size: 1.2em;
-  font-style: italic;
-}
-
-.third-box {
-  background-color: #4c4c4c;
-  padding-bottom: 20px;
-}
-
-#highlighted-title {
-  text-align: center;
-  padding: 50px 0;
-  font-size: 3em;
-}
+    .line2 {
+      display: block;
+      width: 80%;
+      min-width: 490px;
+      height: 25px;
+      background-color: #3a86ff;
+      position: relative;
+      top: 640px;
+      left: 50px;
+      offset: 997;
+    }
