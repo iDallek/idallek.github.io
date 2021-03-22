@@ -1,86 +1,4 @@
-/**{
-      padding: 0;
-      margin: 0;
-    }
-
-    body {
-      font-family: 'Rubik', sans-serif;
-      background-color: white;
-      color: #4c4c4c;
-      font-size: 1.1em;
-    }
-
-    h2 {
-      margin: 15px;
-    }
-
-    li {
-      margin: 5px 50px; 
-    }
-
-    ul {
-      margin-bottom: 20px;
-    }
-
-    .title {
-      color: 
-    }
-
-    .profile-box {
-      border: 1px solid red;
-      background-color: #118ab2;
-    }
-
-    .semi-circle {
-      border-radius: 30%;
-      
-    }
-
-    .profile-text {
-      font-size: 1.3em;
-      text-align: center;
-      padding: 30px 0;
-
-    }
-
-    .profile-img{
-      display: block;
-      margin: 0 auto;
-    }
-
-    .buttun{
-      text-decoration: none;
-      color: white;
-      background-color: #ba1b1d;
-      padding: 5px 15px;
-      margin: 20px;
-      border-radius: 2px;
-    }
-
-    .buttun:hover {
-      background-color: #f7f4f3;
-      color: #ba1b1d;
-    }
-
-    .opex-merchan-text {
-      margin-top: 15px;
-      padding: 15px;
-      font-size: 1.2em;
-      font-style: italic;
-    }
-
-    .third-box {
-      background-color: ;
-      padding-bottom: 20px;
-    }
-
-    #highlighted-title {
-      text-align: center;
-      padding: 50px 0;
-      font-size: 3em;
-    }
-    */
-    * {
+     * {
       margin: 0;
     }
     
@@ -153,18 +71,11 @@
     }
 
     .wave img{
-      /*border: 1px solid red;
-      width: 1200px;
-      height: 100px;
-      display: block;
-      top: 50px;
-      */
       width: 100%;
       filter: saturate(2.5);
     }
 
     .section-2 {
-      /*border: 1px solid red;*/
       margin-top: -100px
     }
 
@@ -219,4 +130,11 @@
       top: 640px;
       left: 50px;
       offset: 997;
+    }
+
+    .wave2 img{
+      margin-top: 50px;
+      width: 100%;
+      filter: saturate(2.5);
+      transform: rotate(180deg);
     }
