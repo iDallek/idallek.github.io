@@ -68,6 +68,11 @@
       display: table;
     }
 
+    /*  
+    CSS Water Wave Background Animation Effects
+    Link: https://www.youtube.com/watch?v=MMNEEdGa5eE
+    */
+
     section{
       position: relative;
       width: 100%;
@@ -139,6 +144,8 @@
       100%{background-position-x: -1000px;}
     }
 
+    /* ------------------------------- */ 
+
     .section-2 {
       margin-top: -100px
     }
@@ -193,15 +200,6 @@
       top: 640px;
       left: 50px;
       offset: 997;
-    }
-
-    @keyframes animate {
-      0%{
-        position: 0;
-      }
-      100%{
-        position: 100%;
-      }
     }
 
     .section-3 {
